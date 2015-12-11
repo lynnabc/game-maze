@@ -1,7 +1,17 @@
-$(document).ready(function(){
-	$(function() {
-    $( ".ball" ).draggable();
-  });
+$document.ready(function(){
+
+$('.play').click(function(){
+    $(this).parent('#welcome').fadeOut(500);
+});
+
+$('.play').click(function(){
+    $(this).parent('#boundary').fadeIn(500);
+});
+
+$('.boundary').css('cursor','crosshair');
+
+
+
 var minutes = 1;
 var seconds = minutes * 60;
 
@@ -20,4 +30,13 @@ var countdown = setInterval(function() {
     }
     seconds--; 
 }, 1000);
+function(){
+    if (seconds ==0) {
+         $('#GameOver').fadeIn();
+            $('#retry').click(function () {
+                $('#GameOver').fadeOut();
+            });
+    }
+};
 });
+

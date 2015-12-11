@@ -3,6 +3,27 @@ body{
 	width: 100%;
 	height: auto;
 }
+#welcome {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:white;
+}
+.play{
+	margin:40% 45%;
+	
+}
+
+h2{
+
+	font-size: 40px;
+	color:red;
+	margin-left: -10px;
+	margin-top: 10px;
+
+}
 h3{
 	font-size: 40px;
 	color:FFF7E3;
@@ -10,7 +31,6 @@ h3{
 	margin-top: 50px;
 }
 .timer{
-	position: absolute;
 	font-size: 40px;
 	color: red;
 	margin-top:-85px;
@@ -21,10 +41,11 @@ h3{
 	margin-left: 10%;
 }
 .boundary1{
-	position: absolute;
+	margin-top: 200px;
 	margin-left: 60px;
 }
 .boundary2{
+	margin-top: -73px;
 	margin-left: 110px;
 }
 .boundary3{
@@ -76,10 +97,20 @@ h3{
 	margin-left: 60px;
 }
 
-#start{
-	position: absolute;
-	z-index: 2;
-	margin-top: 300px;
-	margin-left:150px ;
+#retry {
+    color: yellow;
+    font-size: 24px;
 }
+p {
+    z-index: 500;
+}
+#GameOver {
+    background-color: black;
+    color: red;
+    font-family: impact;
+    font-size: 60px;
+    text-align: center;
+    z-index: 200;
+}
+
 
