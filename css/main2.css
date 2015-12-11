@@ -3,8 +3,21 @@ body{
 	width: 100%;
 	height: auto;
 }
+h3{
+	font-size: 40px;
+	color:FFF7E3;
+	margin-left: 110px;
+	margin-top: 50px;
+}
+.timer{
+	position: absolute;
+	font-size: 40px;
+	color: red;
+	margin-top:-85px;
+	margin-left: 250px;
+}
 .boundary{
-	margin-top: 50%;
+	margin-top: 40%;
 	margin-left: 10%;
 }
 .boundary1{
@@ -62,9 +75,11 @@ body{
 	margin-top: -275px;
 	margin-left: 60px;
 }
+
 #start{
 	position: absolute;
 	z-index: 2;
-	margin-top: 25%;
-	margin-left: 14.5%;
+	margin-top: 300px;
+	margin-left:150px ;
 }
+
