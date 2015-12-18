@@ -1,0 +1,104 @@
+body{
+	background-image:url(../img/bg.jpg);
+}
+h1{
+	font-size: 50px;
+	color: FFF7E3;
+	text-align: center;
+	margin-top: 100px;
+}
+h2{
+	font-size: 40px;
+	color: red;
+	text-align: center;
+	margin-top: 200px;
+}
+#bg{
+	position: fixed;
+	background-color: #0C0C1D;
+	width: 500px;
+	height: 700px;
+	margin-top: 150px;
+	margin-left: 400px;
+}
+
+#maze{
+	position: fixed;
+	background-color: #0C0C1D;
+	width: 1000px;
+	height: 700px;
+	margin-top: 150px;
+	margin-left: 150px;
+}
+h3{
+	font-size: 40px;
+	color:FFF7E3;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.timer{
+	position: relative;
+	font-size: 40px;
+	color: red;
+	margin-top:-85px;
+	margin-left: 150px;
+}
+.boundary{
+	position: relative;
+}
+.boundary1{
+	margin-top: 230px;
+	margin-left: 10px;
+}
+.boundary2{
+	margin-top: -73px;
+	margin-left:60px;
+}
+.boundary3{
+	margin-top: -100px;
+	margin-left: 310px;
+}
+.boundary4{
+	margin-top: -100px;
+	margin-left: 10px;
+}
+.boundary5{
+	margin-top: -150px;
+	margin-left: 10px;
+}
+.boundary6{
+	margin-top: -100px;
+	margin-left: 40px;
+}
+.boundary7{
+	margin-top: -25px;
+	margin-left: 165px;
+}
+.boundary8{
+	margin-top: -1px;
+	margin-left: 165px;
+}
+.boundary9{
+	margin-top: -89px;
+	margin-left:223px;
+}
+.boundary10{
+	margin-top: -65px;
+	margin-left: 240px;
+}
+.boundary11{
+	margin-top: -15px;
+	margin-left: 372.5px;
+}
+.boundary12{
+	margin-top: -15px;
+	margin-left: 390px;
+}
+.boundary13{
+	margin-top: -225px;
+	margin-left: 440px;
+}
+.boundary14{
+	margin-top: -225px;
+	margin-left: 40px;
+}
